@@ -43,8 +43,6 @@ th, td {
 
 thead th {
     padding: 15px;
-    position: sticky;
-    top: 1px;
     background-color: #383838;
     color: white;
 }
