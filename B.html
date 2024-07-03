@@ -5,150 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grupo B</title>
     <link rel="stylesheet" href="Assets/CSS/tables.css">
+
+    <style>
+        body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        background-image: linear-gradient(to right, #868F96, #596164);
+        }
+        .btn {
+        width: 90vw; 
+        height: 50px;
+
+        border: 3px solid rgba(0, 0, 0, .8);
+        border-radius: 20px;
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+
+        background-image: linear-gradient(to right, #FDFCFB, #E2D1C3);
+
+        margin-top: 20px;
+
+        font-size: large;
+        font-weight: bold;
+
+        overflow: hidden;
+
+        color: black;
+
+        text-shadow: -.5px 2px 2px rgba(172, 167, 167, 0.495);
+        }
+    </style>
 </head>
 <body>
-    <table>
-        <caption>Grupo B</caption>
-        <thead>
-            <tr>
-                <th scope="col">N° de rifas vendidas</th>
-                <th scope="col">R$ Final</th>
-                <th scope="col">Integrante</th>
-            </tr>
-    
-            <tbody>
+    <form action="" autocomplete="on">
+        <table>
+            <caption>Grupo B</caption>
+            <thead>
                 <tr>
-                    <td class="number"><input type="number" name="" id="INr"></td>
-                    <td class="number"><input type="number" name="" id="INF"></td>
-                    <td><input type="text" name="" id="INome" autocomplete="name"></td>
+                    <th scope="col">N° de rifas vendidas</th>
+                    <th scope="col">R$ Final</th>
+                    <th scope="col">Integrante</th>
                 </tr>
-    
-                <tr>
-                    <td class="number"><input type="number" name="" id="INr"></td>
-                    <td class="number"><input type="number" name="" id="INF"></td>
-                    <td><input type="text" name="" id="INome" autocomplete="name"></td>
-                </tr>
-    
-                <tr>
-                    <td class="number"><input type="number" name="" id="INr"></td>
-                    <td class="number"><input type="number" name="" id="INF"></td>
-                    <td><input type="text" name="" id="INome" autocomplete="name"></td>
-                </tr>
-    
-                <tr>
-                    <td class="number"><input type="number" name="" id="INr"></td>
-                    <td class="number"><input type="number" name="" id="INF"></td>
-                    <td><input type="text" name="" id="INome" autocomplete="name"></td>
-                </tr>
-    
-                <tr>
-                    <td class="number"><input type="number" name="" id="INr"></td>
-                    <td class="number"><input type="number" name="" id="INF"></td>
-                    <td><input type="text" name="" id="INome" autocomplete="name"></td>
-                </tr>
-    
-                <tr>
-                    <td class="number"><input type="number" name="" id="INr"></td>
-                    <td class="number"><input type="number" name="" id="INF"></td>
-                    <td><input type="text" name="" id="INome" autocomplete="name"></td>
-                </tr>
-    
-                <tr>
-                    <td class="number"><input type="number" name="" id="INr"></td>
-                    <td class="number"><input type="number" name="" id="INF"></td>
-                    <td><input type="text" name="" id="INome" autocomplete="name"></td>
-                </tr>
-    
-                <tr>
-                    <td class="number"><input type="number" name="" id="INr"></td>
-                    <td class="number"><input type="number" name="" id="INF"></td>
-                    <td><input type="text" name="" id="INome" autocomplete="name"></td>
-                </tr>
-    
-                <tr>
-                    <td class="number"><input type="number" name="" id="INr"></td>
-                    <td class="number"><input type="number" name="" id="INF"></td>
-                    <td><input type="text" name="" id="INome" autocomplete="name"></td>
-                </tr>
-    
-                <tr>
-                    <td class="number"><input type="number" name="" id="INr"></td>
-                    <td class="number"><input type="number" name="" id="INF"></td>
-                    <td><input type="text" name="" id="INome" autocomplete="name"></td>
-                </tr>
-    
-                <tr>
-                    <td class="number"><input type="number" name="" id="INr"></td>
-                    <td class="number"><input type="number" name="" id="INF"></td>
-                    <td><input type="text" name="" id="INome" autocomplete="name"></td>
-                </tr>
-                <tr>
-                    <td class="number"><input type="number" name="" id="INr"></td>
-                    <td class="number"><input type="number" name="" id="INF"></td>
-                    <td><input type="text" name="" id="INome" autocomplete="name"></td>
-                </tr>
-                
-                <tr>
-                    <td class="number"><input type="number" name="" id="INr"></td>
-                    <td class="number"><input type="number" name="" id="INF"></td>
-                    <td><input type="text" name="" id="INome" autocomplete="name"></td>
-                </tr>
-                
-                <tr>
-                    <td class="number"><input type="number" name="" id="INr"></td>
-                    <td class="number"><input type="number" name="" id="INF"></td>
-                    <td><input type="text" name="" id="INome" autocomplete="name"></td>
-                </tr>
-                
-                <tr>
-                    <td class="number"><input type="number" name="" id="INr"></td>
-                    <td class="number"><input type="number" name="" id="INF"></td>
-                    <td><input type="text" name="" id="INome" autocomplete="name"></td>
-                </tr>
+        
+                <tbody>
+                    <tr>
+                        <td class="number"><input type="number" name="N_de_rifa" id="INr" required></td>
+                        <td class="number"><input type="number" name="Preco_Final" id="INF" required></td>
+                        <td><input type="text" name="Integrante" id="INome" autocomplete="name" required></td>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
 
-                <tr>
-                    <td class="number"><input type="number" name="" id="INr"></td>
-                    <td class="number"><input type="number" name="" id="INF"></td>
-                    <td><input type="text" name="" id="INome" autocomplete="name"></td>
-                </tr>
-                
-                <tr>
-                    <td class="number"><input type="number" name="" id="INr"></td>
-                    <td class="number"><input type="number" name="" id="INF"></td>
-                    <td><input type="text" name="" id="INome" autocomplete="name"></td>
-                </tr>
-
-                <tr>
-                    <td class="number"><input type="number" name="" id="INr"></td>
-                    <td class="number"><input type="number" name="" id="INF"></td>
-                    <td><input type="text" name="" id="INome" autocomplete="name"></td>
-                </tr>
-
-                <tr>
-                    <td class="number"><input type="number" name="" id="INr"></td>
-                    <td class="number"><input type="number" name="" id="INF"></td>
-                    <td><input type="text" name="" id="INome" autocomplete="name"></td>
-                </tr>
-
-                <tr>
-                    <td class="number"><input type="number" name="" id="INr"></td>
-                    <td class="number"><input type="number" name="" id="INF"></td>
-                    <td><input type="text" name="" id="INome" autocomplete="name"></td>
-                </tr>
-
-                <tr>
-                    <td class="number"><input type="number" name="" id="INr"></td>
-                    <td class="number"><input type="number" name="" id="INF"></td>
-                    <td><input type="text" name="" id="INome" autocomplete="name"></td>
-                </tr>
-
-                <tr>
-                    <td class="number"><input type="number" name="" id="INr"></td>
-                    <td class="number"><input type="number" name="" id="INF"></td>
-                    <td><input type="text" name="" id="INome" autocomplete="name"></td>
-                </tr>
-            </tbody>
-        </thead>
-    </table>
+        <input type="submit" value="Salvar" class="btn">
+        <input type="reset" value="Limpar" class="btn">
+    </form>
 </body>
 </html>
